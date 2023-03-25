@@ -1,0 +1,38 @@
+.container {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+input {
+  border-radius: 5px;
+  width: 80%;
+  height: 40px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.grid-container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 40px;
+  align-content: center;
+}
+
+.details-container {
+  border: 2px solid black;
+  padding-left: 20px;
+  border-radius: 10px;
+}
